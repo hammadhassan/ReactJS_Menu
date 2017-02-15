@@ -7,7 +7,7 @@ body {
     font-style: oblique;
     font-weight: bold;
     margin: 0 auto;
-    width: 200px;
+    width: 500px;
     height: 400px;
     background-color: white;
     box-shadow: 5px 4px 2px gold;
@@ -22,7 +22,10 @@ body {
     border-bottom: 1.5px solid black;
 }
 ul {
+    display: inline;
     list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
 }
 li {
     display: inline;
@@ -31,4 +34,8 @@ li {
 }
 li:hover {
     color: red;
+}
+a {
+    text-decoration: none;
+    color: maroon;
 }
